@@ -1,11 +1,11 @@
 class Insan():
-    def __init__(self):
-        self.__ad=str()
-        self.__soyad=str()
-        self.__tc_no=str()
-        self.__yas=str()
-        self.__cinsiyet=str()
-        self.__uyruk=str()
+    def __init__(self,ad,soyad,tc_no,yas,cinsiyet,uyruk):
+        self.__ad=ad
+        self.__soyad=soyad
+        self.__tc_no=tc_no
+        self.__yas=yas
+        self.__cinsiyet=cinsiyet
+        self.__uyruk=uyruk
 
     def __str__(self):
         text = "İsim : {}\nSoyisim:{}\nT.C. Kimlik Numarası : {}\nYas : {}\nCinsiyet : {}\nUyruk : {}".format(self.__ad,self.__soyad,self.__tc_no,self.__yas,self.__cinsiyet,self.__uyruk)
