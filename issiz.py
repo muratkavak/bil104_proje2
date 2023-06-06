@@ -8,7 +8,18 @@ class Issiz(insan.Insan):
         self.__experience["maviyaka"]=maviyaka_tecrube
         self.__experience["beyazyaka"]=beyazyaka_tecrube
         self.__experience["yonetici"]=yonetici_tecrube
-
+    def get_mytecrube(self):
+        return self.__experience["maviyaka"]
+    def set_mytecrube(self,yenimytecrube):
+        self.__experience["maviyaka"]=yenimytecrube
+    def get_bytecrube(self):
+        return self.__experience["beyazyaka"]
+    def set_bytecrube(self,yenibytecrube):
+        self.__experience["beyazyaka"]=yenibytecrube
+    def get_ytecrube(self):
+        return self.__experience["yonetici"]
+    def set_ytecrube(self,yeniytecrube):
+        self.__experience["yonetici"]=yeniytecrube
     def statu_bul(self):
         maviyaka_deger=self.__experience["maviyaka"]*0.20
         beyazyaka_deger=self.__experience["beyazyaka"]*0.35
@@ -31,3 +42,4 @@ class Issiz(insan.Insan):
         self.__statu=self.statu_bul()
         text="İsim:",self.get_ad(),"Soyad:",self.get_soyad(),"En Uygun Statü:",self.__statu
         return text
+    def get
