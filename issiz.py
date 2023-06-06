@@ -42,4 +42,3 @@ class Issiz(insan.Insan):
         self.__statu=self.statu_bul()
         text="İsim:",self.get_ad(),"Soyad:",self.get_soyad(),"En Uygun Statü:",self.__statu
         return text
-    def get
