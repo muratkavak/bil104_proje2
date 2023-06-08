@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="947be2ba-2acb-480f-8961-5aaf06f89bee" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/beyazyaka.py" beforeDir="false" afterPath="$PROJECT_DIR$/beyazyaka.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/calisan.py" beforeDir="false" afterPath="$PROJECT_DIR$/calisan.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/issiz.py" beforeDir="false" afterPath="$PROJECT_DIR$/issiz.py" afterDir="false" />
