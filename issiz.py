@@ -40,5 +40,5 @@ class Issiz(insan.Insan):
         return uygun_statu
     def __str__(self):
         self.__statu=self.statu_bul()
-        text="İsim:",self.get_ad(),"Soyad:",self.get_soyad(),"En Uygun Statü:",self.__statu
+        text="İsim:"+self.get_ad()+"\n"+"Soyad:"+self.get_soyad()+"\n"+"En Uygun Statü:"+self.__statu
         return text
