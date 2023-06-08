@@ -6,7 +6,7 @@ class Calisan(insan.Insan):
         if sektor=="insaat" or sektor=="teknoloji" or sektor=="muhasebe" or sektor=="diger":
             self.__sektor=sektor
             self.__tecrube=tecrube
-            self.__maas=maas
+            self.__maas=int(maas)
         else:
             while True:
                 sektor=input("Lütfen gecerli bir sektör giriniz :")
